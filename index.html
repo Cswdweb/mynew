@@ -1,0 +1,1933 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<script src="js/3.3.1-jquery.min.js"></script>
+		<script src="js/js-bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137792517-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag("js", new Date());
+
+		  gtag("config", "UA-137792517-1");
+		</script><link rel="stylesheet" href="css/css-style.css">
+
+	
+
+	
+
+
+
+<style>.imheader,.btm{display: none;}</style>
+
+<title>Computer Society of India &middot; Delhi Chapter</title>
+
+</head>
+
+
+<title>
+Computer Society of India &middot; Delhi Chapter </title>
+
+   
+<body><div class="sidebar-overlay"></div>
+<aside id="sidebar" class="sidebar sidebar-fixed-left sidebar-default" role="navigation">
+    <!-- Sidebar header -->
+    <div class="sidebar-header header-cover backgrad">
+        <!-- Top bar -->
+        <!-- Sidebar toggle button -->
+        <button type="button" class="m-5 sidebar-toggle" style="margin:0px;">
+            <i class="glyphicon glyphicon-remove cw _08x"></i>
+        </button>
+        <div class="col-sm-8 col-sm-offset-2 col-xs-offset-2 col-xs-8 p-5">
+            <img class="img-responsive mt-20" src="images/img-logo.png">
+        </div>
+      
+       
+    </div>
+
+        <!-- Sidebar navigation -->
+    <ul class="nav sidebar-nav">
+
+        <a href="updateProfile.html"><li class="p-5" style="padding-left: 16px;">
+                <div class="col-sm-12 col-xs-12 b text-c _15x">Computer Society of India</div>
+                <div class="col-sm-12 col-xs-12 text-c _12x">Delhi Chapter</div>
+
+        </li>
+            </a>
+
+        <li class="divider">
+
+         </li><li>
+                           <a href="csi-delhi.html">
+                               Home
+                           </a>
+                       </li> <li>
+                           <a href="events.html">
+                               Events
+                           </a>
+                       </li> <li>
+                           <a href="membership.html">
+                               Membership
+                           </a>
+                       </li> <li>
+                           <a href="awards.html">
+                               Awards
+                           </a>
+                       </li> <li>
+                           <a href="students.html">
+                               Students
+                           </a>
+                       </li> <li>
+                           <a href="downloads.html">
+                               Downloads
+                           </a>
+                       </li> <li>
+                           <a href="gallery.html">
+                               Gallery
+                           </a>
+                       </li> <li>
+                           <a href="about.html">
+                               About Us
+                           </a>
+                       </li> <li>
+                           <a href="contact.html">
+                               Contact Us
+                           </a>
+                       </li> <li>
+                           <a href="http://csi-india.org">
+                               CSI HQ
+                           </a>
+                       </li>            
+        
+        
+    </ul>
+    
+</aside>
+
+
+<script>
+ 
+
+$(document).ready(function() {
+    var overlay = $('.sidebar-overlay');
+
+    $('.sidebar-toggle').on('click', function() {
+        var sidebar = $('#sidebar');
+        sidebar.toggleClass('open');
+        if ((sidebar.hasClass('sidebar-fixed-left') || sidebar.hasClass('sidebar-fixed-right')) && sidebar.hasClass('open')) {
+            overlay.addClass('active');
+        } else {
+            overlay.removeClass('active');
+        }
+    });
+
+    overlay.on('click', function() {
+        $(this).removeClass('active');
+        $('#sidebar').removeClass('open');
+    });
+
+});
+
+// Sidebar constructor
+//
+// -------------------
+$(document).ready(function() {
+
+    var sidebar = $('#sidebar');
+    var sidebarHeader = $('#sidebar .sidebar-header');
+    var sidebarImg = sidebarHeader.css('background-image');
+    var toggleButtons = $('.sidebar-toggle');
+
+    // Hide toggle buttons on default position
+    toggleButtons.css('display', 'initial');
+    // $('body').css('display', 'table');
+
+
+  
+
+    
+});
+
+
+
+(function($) {
+    var dropdown = $('.dropdown');
+
+    // Add slidedown animation to dropdown
+    dropdown.on('show.bs.dropdown', function(e){
+        $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
+    });
+
+    // Add slideup animation to dropdown
+    dropdown.on('hide.bs.dropdown', function(e){
+        $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
+    });
+})(jQuery);
+
+
+
+(function(removeClass) {
+
+    jQuery.fn.removeClass = function( value ) {
+        if ( value && typeof value.test === "function" ) {
+            for ( var i = 0, l = this.length; i < l; i++ ) {
+                var elem = this[i];
+                if ( elem.nodeType === 1 && elem.className ) {
+                    var classNames = elem.className.split( /\s+/ );
+
+                    for ( var n = classNames.length; n--; ) {
+                        if ( value.test(classNames[n]) ) {
+                            classNames.splice(n, 1);
+                        }
+                    }
+                    elem.className = jQuery.trim( classNames.join(" ") );
+                }
+            }
+        } else {
+            removeClass.call(this, value);
+        }
+        return this;
+    }
+
+})(jQuery.fn.removeClass);  </script>
+
+<div class="container-fluid p-0">
+
+
+
+<div class="col-sm-12 white-box col-xs-12 p-10">
+	<a href="csi-delhi.html"><div class="col-sm-1 col-xs-3 p-0 pl-5 pr-5 text"><img class="m-0 img img-responsive" src="images/img-logo.png"></div></a>
+	<div class="col-sm-11 col-xs-9 p-10">
+		<div class="_23x">Computer Society of India</div>
+		<div class="_16x">Delhi Chapter</div>
+	</div>
+</div>
+
+<div class="col-sm-12 col-xs-12  cs1 p-10">
+
+
+	<div class="col-sm-12 col-xs-12 mobile p-0">
+		<div class="btn hdbb _14x sidebar-toggle"><span class=" p-0"><i class="glyphicon glyphicon-menu-hamburger"></i> &nbsp; MENU</span></div>
+	</div>
+	
+
+	<div class="col-sm-12 col-xs-12 pc p-0">
+		 <a href="csi-delhi.html"><div class="btn hdbb _14x">Home</div></a><a href="events.html"><div class="btn hdbb _14x">Events</div></a><a href="membership.html"><div class="btn hdbb _14x">Membership</div></a><a href="awards.html"><div class="btn hdbb _14x">Awards</div></a><a href="students.html"><div class="btn hdbb _14x">Students</div></a><a href="downloads.html"><div class="btn hdbb _14x">Downloads</div></a><a href="gallery.html"><div class="btn hdbb _14x">Gallery</div></a><a href="about.html"><div class="btn hdbb _14x">About Us</div></a><a href="contact.html"><div class="btn hdbb _14x">Contact Us</div></a><a href="http://csi-india.org"><div class="btn hdbb _14x">CSI HQ</div></a>	</div>
+	
+</div>
+
+</div>
+
+
+
+	
+
+<div class="container-fluid colorSchema p-0">
+
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+    <ol class="carousel-indicators">
+
+      <li data-target="#myCarousel" data-slide-to="0" class="active">
+
+      </li><li data-target="#myCarousel" data-slide-to="1">
+
+      </li><li data-target="#myCarousel" data-slide-to="2">
+
+    </li></ol>
+
+
+
+    <div class="carousel-inner">
+      <div class="item active">
+        <a href="data/news/FDP-on-Machine-Learning13-17-july.pdf"><img src="images/img-s10.jpg" style="width:100%;"></a>
+      </div>
+      <!-- <div class="item">
+        <a href="data/news/smart-devices-impact-on-human-life.pdf"><img src="./req/assets/img/s7.png" style="width:100%;"></a>
+      </div> -->
+      <div class="item">
+        <img src="images/img-s1.jpg" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="images/img-s2.jpg" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="images/img-s3.png" style="width:100%;">
+      </div>
+    </div>
+
+	    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+	      <span class="glyphicon glyphicon-chevron-left"></span>
+	      <span class="sr-only">Previous</span>
+	    </a>
+
+	    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+	      <span class="glyphicon glyphicon-chevron-right"></span>
+	      <span class="sr-only">Next</span>
+	    </a>
+  	</div>
+
+</div>
+
+
+
+	
+
+
+
+
+
+<div class="container-fluid cs2 p-0">
+
+	<div class="col-sm-8 col-xs-12 pt-20 pb-20">
+
+		<div class="mt-20 col-xs-12 mb-15 col-xs-12 _22x text-c">Welcome to Computer Society of India, Delhi Chapter</div>
+
+		<div class="col-sm-12 mb-20 col-xs-12 _14x text-j">Computer Society of India (CSI) is the first and largest body of computer professionals in India. It was started on 6 March 1965 by a few computer professionals and has now grown to be the national body representing computer professionals.Computer Society of India (CSI) Delhi Chapter was started on 21 August, 1970 by a few computer professionals. <br><br>
+Historically, Delhi had been the Centre of power from ages. It
+has been the major activity centre in India both for Business
+and Industry. In early 1960 itself; Delhi witnessed sufficient
+growth of computer usage. The population of computer instal
+lation and computer users has shown exponential increase ev
+ery successive year. After formation of CSI in 1965, the need
+was felt to have a activity centre at Delhi. It was on 20th August
+1970 when the Constitution &amp; Bye-laws of Delhi Chapter were
+approved and Chapter got off to a start under the Chairman
+ship of Prof. J.C. Shourie, IIT Delhi. The chapter has the dis
+tinction of providing numbers of Presidents to Exe Com. to name
+few are Dr. R.K. Dutta, Brig. SVS Chowdhry, Dr. M.L. Goyal,
+R.S. Raizada, Brig. V.M. Sundram, P.P. Gupta....
+The Chapter is one of the largest chapter of the Computer So
+ciety of India having strength of 1300 members <a class="dgt b" href="about.html">...read more</a>
+</div>
+
+		
+
+	</div>
+
+	<div class="col-sm-4 col-xs-12  pt-20">
+
+		<div class="mt-20 col-xs-12 mb-15 col-xs-12 _22x text-c">News</div>
+
+		<div><a href="data/news/FDP-on-Machine-Learning13-17-july.pdf" target="_blank">FDP on Machine Learning</a></div><br>
+		<div><a href="./req/assets/img/s8.jpg" target="_blank">56<sup>th</sup> Foundation Day Celebration</a></div><br>
+		<div><a href="data/news/smart-devices-impact-on-human-life.pdf" target="_blank">Technical Talks on Smart Devices: Impact on Human Life</a></div><br>
+		<div><a href="data/news/IT-Quiz-2020.pdf" target="_blank">Effectiveness of Cyber Laws in India - IT Quiz - 2020</a></div><br>
+		<div><a href="data/news/5th-international-conference.pdf" target="_blank">5th International Conference</a></div><br>
+		<div><a href="annual-general-meeting.html" target="_blank">Annual General Meeting </a></div><br>
+		<div><a href="data/news/Technical-Talk-By-CSI-Delhi-Chapter.pdf" target="_blank">Technical Talk By CSI Delhi Chapter <br>Click Here to read more</a></div><br>
+		<div><a href="data/news/csi_call_for_nominations.pdf" target="_blank">Call for Nominations 2020-2021/2022. <br>Click Here to read more</a></div><br>
+		<div><a href="data/news/csi_election.pdf" target="_blank">Nomination for CSI Delhi Chapter Elections 2020-2021/2022. <br>Click Here for registration</a></div><br>
+		
+		
+		
+
+		<div class="alert col-sm-12 c2 col-xs-12 borgr sh wb b text-c mt-20 mb-20 pt-20 pb-20 _23x">
+
+					<div class="col-sm-12 col-xs-12 mb-10 mt-20">Celebrating</div>
+
+						<center><img class="col-sm-8 col-xs-8 mb-0 col-sm-offset-2 col-xs-offset-2 p-0 img-responsive" src="images/img-_logo.png"></center>
+
+					<div class="col-sm-12 col-xs-12 mt-10 mb-20">Golden Jubilee
+
+						Anniversary<br>
+
+					1970 - 2020</div>
+
+				</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+<div class="container-fluid p-0">
+
+	<div class="col-sm-12 col-xs-12 pt-20 pb-20 wb">
+
+		<div class="mt-20 col-xs-12 mb-20 col-xs-12 _22x text-c">Chairman's Desk</div>
+
+		<div class="col-sm-3 col-xs-12 p-0">
+
+			<center><img class="img img-responsive img-circle" src="images/img-cc.png"></center>
+
+			<div class="col-sm-12 col-xs-12 pt-10 p3  _15x text-c c2 b">Dr. Vinay Kumar</div>
+
+					<div class="col-sm-12 col-xs-12 pt-5 p3 _13x text-c c2 ">Chapter Chairman</div>
+
+		</div>
+
+		<div class="col-sm-9 mb-20 col-xs-12 text-j _14x">I deem it to be a matter of immense pleasure and honour for me to address you all through the website of Computer Society of India, Delhi Chapter. It is indeed very heartening to witness that the CSI, Delhi Chapter has carved a name for itself in the academic and IT professional scenario of the region. Education is the most powerful tool to bring desirable changes in our personality and also to bring positive changes in our society. It is the only medium which enables you to move from darkness to brightness. CSI Student Branches are doing excellent jobs in inculcating such spirits among the students. <br><br>
+Dear friends, I strongly believe that, there can be no better way to drive and improve our nation&rsquo;s prosperity and social economic well-being than through its IT enabled services. I also believe that, technocrats are the key to continued economic and technological advancement of our country. <br><br>
+I would take this opportunity to urge you all to focus on all round development of the CSI. This task has to be taken over by the academicians to provide value and ethic based training in the society. I earnestly hope and trust that, my esteemed members of the society, aspiring members, academicians and budding technocrats will work with sincerity, honesty and dedication and thereby contribute to make this society in achieving its mission. 
+</div>
+
+	</div>
+
+	<div class="p-20 mt-20 wb">-</div>
+
+	
+
+</div>
+
+
+
+<style>/* .sq250{height: 250px;width: 250px;}.sq150{height: 150px;width: 150px;} */
+
+.det{word-wrap: normal;}
+
+</style>
+
+
+
+
+
+
+
+<div class="container-fluid cs2 p-0">
+
+	<div class="col-sm-12 col-xs-12 pt-20 pb-20">
+
+		<div class="mt-20 col-xs-12 mb-15 col-xs-12 _25x text-c">Governing Body</div>
+
+
+
+
+
+		
+
+
+			<div class="col-sm-4 col-sm-12 p-5">
+
+				<div class="col-sm-12 col-xs-12 wb box-shadow borgr sh alert">
+
+					<div class="col-sm-12 col-xs-12 p-5">
+
+						<center><img class="img-responsive sq250 img-circle" src="images/img-cc.png"></center>
+
+					</div>
+
+					<div class="col-sm-12 col-xs-12 pt-10 p3  _15x text-c c2 b">Dr. Vinay Kumar</div>
+
+					<div class="col-sm-12 col-xs-12 pt-5 p3 _13x text-c c2 ">Chapter Chairman</div>
+
+					<div class="col-sm-12 col-xs-12 text-c">
+
+							<div class="btn lbb mt-5  text-c" data-toggle="modal" data-target="#gb1">Read More.</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+<div class="modal fade p-5" id="gb1" tabindex="-1" role="dialog" aria-labelledby="SelectArea" aria-hidden="true">
+
+	<div class="modal-dialog nbr p-0" role="document">
+
+		<div class="modal-content p-0 nbr">
+
+			<div class="modal-header p-0 pt-0">
+
+				<div class="w-full white-box p-0">
+
+					<div class="dyWidth100 p-0">
+
+						<div type="button" class="p-5 close pull-right" data-dismiss="modal" aria-label="Close" style="width: 10%;padding-top: 7.6px">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+						<div class="dyWidth100 p-20 pl-20 mb-15 backgrad">
+
+						<span class="_18x b">Dr. Vinay Kumar</span><br>
+
+						<span class="_14x">Chapter Chairman</span>
+
+							</div>
+
+
+
+						<div class="p-5">
+
+							<center><img class="img-circle img-responsive sq250" src="images/img-cc.png"></center>
+
+						</div>
+
+						<div class="_13x p-20 text-j det">
+
+							Dr. Vinay Kumar is ex-Scientist, Academician, Author and social worker. He is associated with CSI DC since last five years as MC member, Hon. Secretary and Vice Chairman. Details about Dr. Vinay is available at <a class="blt" href="http://knowdrvinaykumar.blogspot.in">http://knowdrvinaykumar.blogspot.in</a>
+						</div>
+
+						<div type="button" class="p-5 pt-10 mt-5 dspn clearSearcBar clseBtt close text-r pull-right" style="width: 10%;">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				
+
+			</div>
+
+			<div class="modal-body dspn p-0 nbr">
+
+			</div>
+
+
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+		
+
+
+			<div class="col-sm-4 col-sm-12 p-5">
+
+				<div class="col-sm-12 col-xs-12 wb box-shadow borgr sh alert">
+
+					<div class="col-sm-12 col-xs-12 p-5">
+
+						<center><img class="img-responsive sq250 img-circle" src="images/img-rsn.jpg"></center>
+
+					</div>
+
+					<div class="col-sm-12 col-xs-12 pt-10 p3  _15x text-c c2 b">Mr. Raj Singh Niranjan</div>
+
+					<div class="col-sm-12 col-xs-12 pt-5 p3 _13x text-c c2 ">Vice Chairman</div>
+
+					<div class="col-sm-12 col-xs-12 text-c">
+
+							<div class="btn lbb mt-5  text-c" data-toggle="modal" data-target="#gb2">Read More.</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+<div class="modal fade p-5" id="gb2" tabindex="-1" role="dialog" aria-labelledby="SelectArea" aria-hidden="true">
+
+	<div class="modal-dialog nbr p-0" role="document">
+
+		<div class="modal-content p-0 nbr">
+
+			<div class="modal-header p-0 pt-0">
+
+				<div class="w-full white-box p-0">
+
+					<div class="dyWidth100 p-0">
+
+						<div type="button" class="p-5 close pull-right" data-dismiss="modal" aria-label="Close" style="width: 10%;padding-top: 7.6px">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+						<div class="dyWidth100 p-20 pl-20 mb-15 backgrad">
+
+						<span class="_18x b">Mr. Raj Singh Niranjan</span><br>
+
+						<span class="_14x">Vice Chairman</span>
+
+							</div>
+
+
+
+						<div class="p-5">
+
+							<center><img class="img-circle img-responsive sq250" src="images/img-rsn.jpg"></center>
+
+						</div>
+
+						<div class="_13x p-20 text-j det">
+
+							Mr. Raj Singh Niranjan is a Legal Adviser for International Solar Alliance, for India Africa Youth Energy Forum and for Solar Business Club. He is also Co-chair of Solar Business Club and founder of Dr. Gopal Energy Foundation (DGEF). He is President of International Energy Arbitration Centre and Managing Partner, Trans India Law Associates.
+						</div>
+
+						<div type="button" class="p-5 pt-10 mt-5 dspn clearSearcBar clseBtt close text-r pull-right" style="width: 10%;">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				
+
+			</div>
+
+			<div class="modal-body dspn p-0 nbr">
+
+			</div>
+
+
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+		
+
+
+			<div class="col-sm-4 col-sm-12 p-5">
+
+				<div class="col-sm-12 col-xs-12 wb box-shadow borgr sh alert">
+
+					<div class="col-sm-12 col-xs-12 p-5">
+
+						<center><img class="img-responsive sq250 img-circle" src="images/img-ak.jpg"></center>
+
+					</div>
+
+					<div class="col-sm-12 col-xs-12 pt-10 p3  _15x text-c c2 b">Mr. Akshay Kumar</div>
+
+					<div class="col-sm-12 col-xs-12 pt-5 p3 _13x text-c c2 ">Hon. Secretary</div>
+
+					<div class="col-sm-12 col-xs-12 text-c">
+
+							<div class="btn lbb mt-5  text-c" data-toggle="modal" data-target="#gb3">Read More.</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+<div class="modal fade p-5" id="gb3" tabindex="-1" role="dialog" aria-labelledby="SelectArea" aria-hidden="true">
+
+	<div class="modal-dialog nbr p-0" role="document">
+
+		<div class="modal-content p-0 nbr">
+
+			<div class="modal-header p-0 pt-0">
+
+				<div class="w-full white-box p-0">
+
+					<div class="dyWidth100 p-0">
+
+						<div type="button" class="p-5 close pull-right" data-dismiss="modal" aria-label="Close" style="width: 10%;padding-top: 7.6px">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+						<div class="dyWidth100 p-20 pl-20 mb-15 backgrad">
+
+						<span class="_18x b">Mr. Akshay Kumar</span><br>
+
+						<span class="_14x">Hon. Secretary</span>
+
+							</div>
+
+
+
+						<div class="p-5">
+
+							<center><img class="img-circle img-responsive sq250" src="images/img-ak.jpg"></center>
+
+						</div>
+
+						<div class="_13x p-20 text-j det">
+
+							Akshay Kumar is currently an administrator of repute at JIMS Group of Institution. He has more than 20 years of experience with JIMS Group of Institutions (A leading B-School) and provided facilitation platforms using recent technologies in National Level Seminars and Conferences. He has also been Chief organiser of various Annual IT Seminars at National Level, he was also a part of member managing committee for 2017-18. He has also attended various Seminars, conferences and workshop by Adobe, Microsoft, EMC etc to name a few.<br>
+He has deployed several Google Apps, Firewall and secured wifi solution for a leading B-school. Furthermore he has Extensive experience in heading IT Department of a leading B-school. Moreover, he has successfully handled a team of IT professionals also extensive experience in developing software, web development and IT Infrastructure.<br>
+He has Received recognitions from RHCE (Red Hat Certified Engineer), MCSE (Microsoft Certified Solutions Expert), CCNA (Cisco Certified Network Associate).
+						</div>
+
+						<div type="button" class="p-5 pt-10 mt-5 dspn clearSearcBar clseBtt close text-r pull-right" style="width: 10%;">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				
+
+			</div>
+
+			<div class="modal-body dspn p-0 nbr">
+
+			</div>
+
+
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+		
+
+
+			<div class="col-sm-4 col-sm-12 p-5">
+
+				<div class="col-sm-12 col-xs-12 wb box-shadow borgr sh alert">
+
+					<div class="col-sm-12 col-xs-12 p-5">
+
+						<center><img class="img-responsive sq250 img-circle" src="images/img-ritesh.jpg"></center>
+
+					</div>
+
+					<div class="col-sm-12 col-xs-12 pt-10 p3  _15x text-c c2 b">Mr. Ritesh Bhardwaj</div>
+
+					<div class="col-sm-12 col-xs-12 pt-5 p3 _13x text-c c2 ">Hon. Treasurer</div>
+
+					<div class="col-sm-12 col-xs-12 text-c">
+
+							<div class="btn lbb mt-5  text-c" data-toggle="modal" data-target="#gb31">Read More.</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+<div class="modal fade p-5" id="gb31" tabindex="-1" role="dialog" aria-labelledby="SelectArea" aria-hidden="true">
+
+	<div class="modal-dialog nbr p-0" role="document">
+
+		<div class="modal-content p-0 nbr">
+
+			<div class="modal-header p-0 pt-0">
+
+				<div class="w-full white-box p-0">
+
+					<div class="dyWidth100 p-0">
+
+						<div type="button" class="p-5 close pull-right" data-dismiss="modal" aria-label="Close" style="width: 10%;padding-top: 7.6px">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+						<div class="dyWidth100 p-20 pl-20 mb-15 backgrad">
+
+						<span class="_18x b">Mr. Ritesh Bhardwaj</span><br>
+
+						<span class="_14x">Hon. Treasurer</span>
+
+							</div>
+
+
+
+						<div class="p-5">
+
+							<center><img class="img-circle img-responsive sq250" src="images/img-ritesh.jpg"></center>
+
+						</div>
+
+						<div class="_13x p-20 text-j det">
+
+							
+						</div>
+
+						<div type="button" class="p-5 pt-10 mt-5 dspn clearSearcBar clseBtt close text-r pull-right" style="width: 10%;">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				
+
+			</div>
+
+			<div class="modal-body dspn p-0 nbr">
+
+			</div>
+
+
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+		
+
+
+			<div class="col-sm-4 col-sm-12 p-5">
+
+				<div class="col-sm-12 col-xs-12 wb box-shadow borgr sh alert">
+
+					<div class="col-sm-12 col-xs-12 p-5">
+
+						<center><img class="img-responsive sq250 img-circle" src="images/img-vkg.jpg"></center>
+
+					</div>
+
+					<div class="col-sm-12 col-xs-12 pt-10 p3  _15x text-c c2 b">Mr. V. K. Gupta</div>
+
+					<div class="col-sm-12 col-xs-12 pt-5 p3 _13x text-c c2 ">Immediate Past Chairman</div>
+
+					<div class="col-sm-12 col-xs-12 text-c">
+
+							<div class="btn lbb mt-5  text-c" data-toggle="modal" data-target="#gb4">Read More.</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+<div class="modal fade p-5" id="gb4" tabindex="-1" role="dialog" aria-labelledby="SelectArea" aria-hidden="true">
+
+	<div class="modal-dialog nbr p-0" role="document">
+
+		<div class="modal-content p-0 nbr">
+
+			<div class="modal-header p-0 pt-0">
+
+				<div class="w-full white-box p-0">
+
+					<div class="dyWidth100 p-0">
+
+						<div type="button" class="p-5 close pull-right" data-dismiss="modal" aria-label="Close" style="width: 10%;padding-top: 7.6px">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+						<div class="dyWidth100 p-20 pl-20 mb-15 backgrad">
+
+						<span class="_18x b">Mr. V. K. Gupta</span><br>
+
+						<span class="_14x">Immediate Past Chairman</span>
+
+							</div>
+
+
+
+						<div class="p-5">
+
+							<center><img class="img-circle img-responsive sq250" src="images/img-vkg.jpg"></center>
+
+						</div>
+
+						<div class="_13x p-20 text-j det">
+
+							Immediate Past Chairman, CSI-Delhi Chapter. Life Member since 1998
+ Retired as Director (Engineering) SAG, in 2001, after serving Al India Radio &amp; Doordarshan, Ministry of I &amp; B for more than 37 years at different  stations in various capacities. Presently running my own office; V K GUPTA &amp; ASSOCIATE  as a Consulting, Chartered Engineer and Govt. Regtd. Approved Valuer (P&amp;M)
+<br><br>
+ AWARDS &amp; PRIZES:
+<br><br>
+ 1.  NATIONAL AWARD, announced on Republic Day&rsquo;1975 on inventing and making a working gadget on &ldquo;TV  DRY REHEARSAL CAMERAS AND MECHANICAL SWITCHER&rdquo;
+<br><br>
+ Technical paper on the working of the gadget was published in the Educational Broadcasting International ( A Journal of British Council) published from London in September,1974
+<br><br>
+ 2      Received First &amp; Third Prizes on technical papers &ldquo;RELAY OF COMMENTARIES &amp; PROGRMME&rdquo; and &ldquo;ROAD ILLUMINATION&rdquo; respectively which were published in IEI Bulletins of Delhi Centre during 1970 &amp; 1972. These prizes were given by the Hon&rsquo;ble Prime Minister of India and the Hon&rsquo;ble Vice President of India respectively.
+<br><br>
+ 3.  Received an appreciation of valuable services to the Special Organising Committee. IX Asian Games, held at  Delhi during 1982.
+<br><br>
+ 4.     Won first Prize of the Indian Culture Exhibit at the Festival Of Nations at Minnesota, USA during May,2009.
+
+						</div>
+
+						<div type="button" class="p-5 pt-10 mt-5 dspn clearSearcBar clseBtt close text-r pull-right" style="width: 10%;">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				
+
+			</div>
+
+			<div class="modal-body dspn p-0 nbr">
+
+			</div>
+
+
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+		
+
+
+			<div class="col-sm-4 col-sm-12 p-5">
+
+				<div class="col-sm-12 col-xs-12 wb box-shadow borgr sh alert">
+
+					<div class="col-sm-12 col-xs-12 p-5">
+
+						<center><img class="img-responsive sq250 img-circle" src="images/img-ms.jpg"></center>
+
+					</div>
+
+					<div class="col-sm-12 col-xs-12 pt-10 p3  _15x text-c c2 b">Mr. Manoj Sethi</div>
+
+					<div class="col-sm-12 col-xs-12 pt-5 p3 _13x text-c c2 ">Past Chairman</div>
+
+					<div class="col-sm-12 col-xs-12 text-c">
+
+							<div class="btn lbb mt-5  text-c" data-toggle="modal" data-target="#gb5">Read More.</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+<div class="modal fade p-5" id="gb5" tabindex="-1" role="dialog" aria-labelledby="SelectArea" aria-hidden="true">
+
+	<div class="modal-dialog nbr p-0" role="document">
+
+		<div class="modal-content p-0 nbr">
+
+			<div class="modal-header p-0 pt-0">
+
+				<div class="w-full white-box p-0">
+
+					<div class="dyWidth100 p-0">
+
+						<div type="button" class="p-5 close pull-right" data-dismiss="modal" aria-label="Close" style="width: 10%;padding-top: 7.6px">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+						<div class="dyWidth100 p-20 pl-20 mb-15 backgrad">
+
+						<span class="_18x b">Mr. Manoj Sethi</span><br>
+
+						<span class="_14x">Past Chairman</span>
+
+							</div>
+
+
+
+						<div class="p-5">
+
+							<center><img class="img-circle img-responsive sq250" src="images/img-ms.jpg"></center>
+
+						</div>
+
+						<div class="_13x p-20 text-j det">
+
+							
+<br><b>Qualification:</b> M.Sc(OR), M.E.(CTA), LMCSI<br>
+<b>Specialization:</b> Database Management Systems<br>
+Department of CSE, Delhi technological university, Delhi<br>
+<br><br>
+ 
+<b>Books Reviewed</b><br>
+<li>	Reviewed a proposed book &ldquo;C Programming &ndash; Test Your Skills&rdquo; by Pearson Education, India in 2009.
+</li><li>	Prepared road map of a Book  &ldquo;Programming in C and Data Structures&rdquo; by Kamthane, Pearson Education   - Oct 2007
+</li><li>	Reviewed the transcript of "C Programming",  Pearson Education    - 2006 
+<br>
+<br>
+<b>Research Publication</b><br>
+</li><li>	ManojSethi and Rajni Jindal, &ldquo;Distributed Data Association Rule Mining: Tools and Techniques&rdquo;, IEEE Proceedings of the 10th INDIACom; INDIACom-2016 3rd 2016 International Conference on &ldquo;Computing for Sustainable Global Development&rdquo;, 16th &ndash; 18th March, 2016; ISBN: 978-9-3805-4421-2 BharatiVidyapeeth&rsquo;s Institute of Computer Applications and Management (BVICAM), New Delhi (INDIA), March 2016.
+</li><li>	Swati Sharma and ManojSethi, "Implementing Collaborative Filtering on Large Scale Data Using Hadoop and Mahout", International Research Journal of Engineering and Technology (IRJET), Volume: 02 Issue: 04 pp: 102-104, e-ISSN: 2395 -0056; July 2015.
+</li><li>	ManojSethi and Tarinder Singh, &ldquo;Sandwich-Apriori: A combine approach of Apriori and Reverse-Apriori&rdquo; 2015 Annual IEEE India Conference (INDICON), ISSN: 2325-9418, DOI: 10.1109/INDICON.2015.7443786, Dec 2015.
+</li><li>	TereraiTinasheMaposa and ManojSethi, "SQL-on-Hadoop: The Most Probable Future in Big Data Analytics",Advances in Computer Science and Information Technology (ACSIT),  p-ISSN: 2393-9907; e-ISSN: 2393-9915; Volume 2, Issue 13; pp. 9-14; July-September, 2015.
+</li><li>	TereraiTinasheMaposa and ManojSethi, &ldquo;Association Rule Mining for Structured Data in Big Data Using Parallel RDB-Miner Algorithm&rdquo;, International Journal of Computer Science and Mobile Computing  Vol.4 Issue 6, pg. 1-9,  ISSN: 2320-088X,  June- 2015.
+
+						</li></div>
+
+						<div type="button" class="p-5 pt-10 mt-5 dspn clearSearcBar clseBtt close text-r pull-right" style="width: 10%;">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				
+
+			</div>
+
+			<div class="modal-body dspn p-0 nbr">
+
+			</div>
+
+
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+		
+		
+
+			
+
+
+
+			
+
+
+
+		<div class="mt-20 col-xs-12 mb-15 col-xs-12 _25x text-c">Management Committee</div>
+
+		
+
+
+
+	
+			<div class="col-sm-3 col-sm-12 p-5">
+
+				<div class="col-sm-12 col-xs-12 wb box-shadow borgr sh alert">
+
+					<div class="col-sm-12 col-xs-12 p-5">
+
+						<center><img class="img-responsive sq150 img-circle" src="images/img-nitu.jpg"></center>
+
+					</div>
+
+					<div class="col-sm-12 col-xs-12 pt-10 p3  _15x text-c c2 b">Ms. Nitu</div>
+
+					<div class="col-sm-12 col-xs-12 text-c">
+
+							<div class="btn lbb mt-5  text-c" data-toggle="modal" data-target="#mc1">Read More.</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+
+
+			<div class="modal fade p-5" id="mc1" tabindex="-1" role="dialog" aria-labelledby="SelectArea" aria-hidden="true">
+
+	<div class="modal-dialog nbr p-0" role="document">
+
+		<div class="modal-content p-0 nbr">
+
+			<div class="modal-header p-0 pt-0">
+
+				<div class="w-full white-box p-0">
+
+					<div class="dyWidth100 p-0">
+
+						<div type="button" class="p-5 close pull-right" data-dismiss="modal" aria-label="Close" style="width: 10%;padding-top: 7.6px">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+						<div class="dyWidth100 p-20 pl-20 mb-15 backgrad">
+
+						<span class="_18x b">Ms. Nitu</span><br>
+
+						<!-- <span class="_14x"></span> -->
+
+							</div>
+
+
+
+						<div class="p-5">
+
+						<center><img class="img-circle img-responsive sq250" src="images/img-nitu.jpg"></center>
+
+						</div>
+
+						<div class="_13x text-j p-20 det">
+
+							
+						</div>
+
+						<div type="button" class="p-5 pt-10 mt-5 dspn clearSearcBar clseBtt close text-r pull-right" style="width: 10%;">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				
+
+			</div>
+
+			<div class="modal-body dspn p-0 nbr">
+
+			</div>
+
+
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+			
+			<div class="col-sm-3 col-sm-12 p-5">
+
+				<div class="col-sm-12 col-xs-12 wb box-shadow borgr sh alert">
+
+					<div class="col-sm-12 col-xs-12 p-5">
+
+						<center><img class="img-responsive sq150 img-circle" src="images/img-mc2.jpg"></center>
+
+					</div>
+
+					<div class="col-sm-12 col-xs-12 pt-10 p3  _15x text-c c2 b">Ms. Alka Arora</div>
+
+					<div class="col-sm-12 col-xs-12 text-c">
+
+							<div class="btn lbb mt-5  text-c" data-toggle="modal" data-target="#mc2">Read More.</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+
+
+			<div class="modal fade p-5" id="mc2" tabindex="-1" role="dialog" aria-labelledby="SelectArea" aria-hidden="true">
+
+	<div class="modal-dialog nbr p-0" role="document">
+
+		<div class="modal-content p-0 nbr">
+
+			<div class="modal-header p-0 pt-0">
+
+				<div class="w-full white-box p-0">
+
+					<div class="dyWidth100 p-0">
+
+						<div type="button" class="p-5 close pull-right" data-dismiss="modal" aria-label="Close" style="width: 10%;padding-top: 7.6px">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+						<div class="dyWidth100 p-20 pl-20 mb-15 backgrad">
+
+						<span class="_18x b">Ms. Alka Arora</span><br>
+
+						<!-- <span class="_14x"></span> -->
+
+							</div>
+
+
+
+						<div class="p-5">
+
+						<center><img class="img-circle img-responsive sq250" src="images/img-mc2.jpg"></center>
+
+						</div>
+
+						<div class="_13x text-j p-20 det">
+
+							Working as Principal Scientist in Indian Agricultural Statistics Research Institute (IASRI) which is a premier institute in the area of Statistics, Computer Applications and Bio-informatics under Indian Council of Agricultural Research (ICAR). More than 20 years of experience in Research, Teaching and Training. Contributed towards strengthening of agricultural informatics through designing and implementing number of web based applications and mobile applications operational at National level. Associated in implementation of ERP solution and establishment of ICAR Data Center.<br><br>	 
+Completed Ph.Dfrom Kurukshetra University in 2010 on Data mining with focus on Cluster characterization using Rough Set theory and applied the approach for disease cluster description. Research Guide and Faculty member of PG School, IARI, New Delhi, which has the status of an International University (Deemed). Research interests include applications of data mining and Image Analysis techniques for agriculture domain along with development of decision support systems and mobile applications for e-governance.
+						</div>
+
+						<div type="button" class="p-5 pt-10 mt-5 dspn clearSearcBar clseBtt close text-r pull-right" style="width: 10%;">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				
+
+			</div>
+
+			<div class="modal-body dspn p-0 nbr">
+
+			</div>
+
+
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+			
+			<div class="col-sm-3 col-sm-12 p-5">
+
+				<div class="col-sm-12 col-xs-12 wb box-shadow borgr sh alert">
+
+					<div class="col-sm-12 col-xs-12 p-5">
+
+						<center><img class="img-responsive sq150 img-circle" src="images/img-mc3.jpg"></center>
+
+					</div>
+
+					<div class="col-sm-12 col-xs-12 pt-10 p3  _15x text-c c2 b">Ms. Dimple Chawla</div>
+
+					<div class="col-sm-12 col-xs-12 text-c">
+
+							<div class="btn lbb mt-5  text-c" data-toggle="modal" data-target="#mc3">Read More.</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+
+
+			<div class="modal fade p-5" id="mc3" tabindex="-1" role="dialog" aria-labelledby="SelectArea" aria-hidden="true">
+
+	<div class="modal-dialog nbr p-0" role="document">
+
+		<div class="modal-content p-0 nbr">
+
+			<div class="modal-header p-0 pt-0">
+
+				<div class="w-full white-box p-0">
+
+					<div class="dyWidth100 p-0">
+
+						<div type="button" class="p-5 close pull-right" data-dismiss="modal" aria-label="Close" style="width: 10%;padding-top: 7.6px">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+						<div class="dyWidth100 p-20 pl-20 mb-15 backgrad">
+
+						<span class="_18x b">Ms. Dimple Chawla</span><br>
+
+						<!-- <span class="_14x"></span> -->
+
+							</div>
+
+
+
+						<div class="p-5">
+
+						<center><img class="img-circle img-responsive sq250" src="images/img-mc3.jpg"></center>
+
+						</div>
+
+						<div class="_13x text-j p-20 det">
+
+							Dimple Chawla is working as an Assistant Professor in Department of Information Technologgy. She has completed her Bachelor in Computer Application from Guru Gobind Singh Indraprastha University. She holds dual Master degrees, MCA in Computer Application and M.Tech in Information Technology from Guru Gobind Singh Indraprastha University, Dwarka, India. She has worked on many projects where it was learning and interesting experience shared with the guidance to work under Associate Project Manager M/s HCL Technologies as a trainee at Graduation level. Other than this she had also done training at MCA level in M/s Sapple System.
+<br><br>
+As in Academics performance, she has Secured First Position in System Programming at University End Term Examination. She has started her career in teaching profession and served from 2008 till date. Also, consecutively she has received &lsquo;Best Teacher Award&rsquo; during academic year 2014-15 and 2013-14.
+
+dimple chawla
+She has the life-time membership of Computer Society of India and International Journal of Communication in Information Science &amp; Management Engineering (CISME). She has to her credit 11 research papers in various International/National Journals and Conferences. Her interest areas include Artificial Intelligence, Digital Image Processing, Video Segmentation and Software Engineering.
+						</div>
+
+						<div type="button" class="p-5 pt-10 mt-5 dspn clearSearcBar clseBtt close text-r pull-right" style="width: 10%;">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				
+
+			</div>
+
+			<div class="modal-body dspn p-0 nbr">
+
+			</div>
+
+
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+			
+			<div class="col-sm-3 col-sm-12 p-5">
+
+				<div class="col-sm-12 col-xs-12 wb box-shadow borgr sh alert">
+
+					<div class="col-sm-12 col-xs-12 p-5">
+
+						<center><img class="img-responsive sq150 img-circle" src="images/img-vg.jpg"></center>
+
+					</div>
+
+					<div class="col-sm-12 col-xs-12 pt-10 p3  _15x text-c c2 b">Mr. Vishu Gupta</div>
+
+					<div class="col-sm-12 col-xs-12 text-c">
+
+							<div class="btn lbb mt-5  text-c" data-toggle="modal" data-target="#mc4">Read More.</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+
+
+			<div class="modal fade p-5" id="mc4" tabindex="-1" role="dialog" aria-labelledby="SelectArea" aria-hidden="true">
+
+	<div class="modal-dialog nbr p-0" role="document">
+
+		<div class="modal-content p-0 nbr">
+
+			<div class="modal-header p-0 pt-0">
+
+				<div class="w-full white-box p-0">
+
+					<div class="dyWidth100 p-0">
+
+						<div type="button" class="p-5 close pull-right" data-dismiss="modal" aria-label="Close" style="width: 10%;padding-top: 7.6px">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+						<div class="dyWidth100 p-20 pl-20 mb-15 backgrad">
+
+						<span class="_18x b">Mr. Vishu Gupta</span><br>
+
+						<!-- <span class="_14x"></span> -->
+
+							</div>
+
+
+
+						<div class="p-5">
+
+						<center><img class="img-circle img-responsive sq250" src="images/img-vg.jpg"></center>
+
+						</div>
+
+						<div class="_13x text-j p-20 det">
+
+							 Mr. Vishu Gupta is a professional having expertise in the area of Business Promotion, Digital Initiates, Automation of Process &amp; Computerisation of Calculations, Online Training Platform content development and Training of the Staff. He is presently employed with <b>Bajaj Allianz L.I.C. Limited</b>. He did his B.Sc. (Hons) in Electronics from Delhi University and PGDBM from Jagan Institute of Management Studies, New Delhi. He can be contacted at
+<a href="mailto:vgupta1000@rediffmail.com">vgupta1000@rediffmail.com</a> 
+						</div>
+
+						<div type="button" class="p-5 pt-10 mt-5 dspn clearSearcBar clseBtt close text-r pull-right" style="width: 10%;">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				
+
+			</div>
+
+			<div class="modal-body dspn p-0 nbr">
+
+			</div>
+
+
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+			
+			<div class="col-sm-3 col-sm-12 p-5">
+
+				<div class="col-sm-12 col-xs-12 wb box-shadow borgr sh alert">
+
+					<div class="col-sm-12 col-xs-12 p-5">
+
+						<center><img class="img-responsive sq150 img-circle" src="images/img-noPhotoAdded.jpg"></center>
+
+					</div>
+
+					<div class="col-sm-12 col-xs-12 pt-10 p3  _15x text-c c2 b">Mr. Sanjeev Mathur</div>
+
+					<div class="col-sm-12 col-xs-12 text-c">
+
+							<div class="btn lbb mt-5  text-c" data-toggle="modal" data-target="#mc5">Read More.</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+
+
+			<div class="modal fade p-5" id="mc5" tabindex="-1" role="dialog" aria-labelledby="SelectArea" aria-hidden="true">
+
+	<div class="modal-dialog nbr p-0" role="document">
+
+		<div class="modal-content p-0 nbr">
+
+			<div class="modal-header p-0 pt-0">
+
+				<div class="w-full white-box p-0">
+
+					<div class="dyWidth100 p-0">
+
+						<div type="button" class="p-5 close pull-right" data-dismiss="modal" aria-label="Close" style="width: 10%;padding-top: 7.6px">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+						<div class="dyWidth100 p-20 pl-20 mb-15 backgrad">
+
+						<span class="_18x b">Mr. Sanjeev Mathur</span><br>
+
+						<!-- <span class="_14x"></span> -->
+
+							</div>
+
+
+
+						<div class="p-5">
+
+						<center><img class="img-circle img-responsive sq250" src="images/img-noPhotoAdded.jpg"></center>
+
+						</div>
+
+						<div class="_13x text-j p-20 det">
+
+							
+						</div>
+
+						<div type="button" class="p-5 pt-10 mt-5 dspn clearSearcBar clseBtt close text-r pull-right" style="width: 10%;">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				
+
+			</div>
+
+			<div class="modal-body dspn p-0 nbr">
+
+			</div>
+
+
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+			
+			<div class="col-sm-3 col-sm-12 p-5">
+
+				<div class="col-sm-12 col-xs-12 wb box-shadow borgr sh alert">
+
+					<div class="col-sm-12 col-xs-12 p-5">
+
+						<center><img class="img-responsive sq150 img-circle" src="images/img-akmishra.jpg"></center>
+
+					</div>
+
+					<div class="col-sm-12 col-xs-12 pt-10 p3  _15x text-c c2 b">Dr. A.K. Mishra</div>
+
+					<div class="col-sm-12 col-xs-12 text-c">
+
+							<div class="btn lbb mt-5  text-c" data-toggle="modal" data-target="#mc6">Read More.</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+
+
+			<div class="modal fade p-5" id="mc6" tabindex="-1" role="dialog" aria-labelledby="SelectArea" aria-hidden="true">
+
+	<div class="modal-dialog nbr p-0" role="document">
+
+		<div class="modal-content p-0 nbr">
+
+			<div class="modal-header p-0 pt-0">
+
+				<div class="w-full white-box p-0">
+
+					<div class="dyWidth100 p-0">
+
+						<div type="button" class="p-5 close pull-right" data-dismiss="modal" aria-label="Close" style="width: 10%;padding-top: 7.6px">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+						<div class="dyWidth100 p-20 pl-20 mb-15 backgrad">
+
+						<span class="_18x b">Dr. A.K. Mishra</span><br>
+
+						<!-- <span class="_14x"></span> -->
+
+							</div>
+
+
+
+						<div class="p-5">
+
+						<center><img class="img-circle img-responsive sq250" src="images/img-akmishra.jpg"></center>
+
+						</div>
+
+						<div class="_13x text-j p-20 det">
+
+							
+						</div>
+
+						<div type="button" class="p-5 pt-10 mt-5 dspn clearSearcBar clseBtt close text-r pull-right" style="width: 10%;">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				
+
+			</div>
+
+			<div class="modal-body dspn p-0 nbr">
+
+			</div>
+
+
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+			
+			<div class="col-sm-3 col-sm-12 p-5">
+
+				<div class="col-sm-12 col-xs-12 wb box-shadow borgr sh alert">
+
+					<div class="col-sm-12 col-xs-12 p-5">
+
+						<center><img class="img-responsive sq150 img-circle" src="images/img-noPhotoAdded.jpg"></center>
+
+					</div>
+
+					<div class="col-sm-12 col-xs-12 pt-10 p3  _15x text-c c2 b">Mr. N.K. Sharma</div>
+
+					<div class="col-sm-12 col-xs-12 text-c">
+
+							<div class="btn lbb mt-5  text-c" data-toggle="modal" data-target="#mc7">Read More.</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+
+
+			<div class="modal fade p-5" id="mc7" tabindex="-1" role="dialog" aria-labelledby="SelectArea" aria-hidden="true">
+
+	<div class="modal-dialog nbr p-0" role="document">
+
+		<div class="modal-content p-0 nbr">
+
+			<div class="modal-header p-0 pt-0">
+
+				<div class="w-full white-box p-0">
+
+					<div class="dyWidth100 p-0">
+
+						<div type="button" class="p-5 close pull-right" data-dismiss="modal" aria-label="Close" style="width: 10%;padding-top: 7.6px">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+						<div class="dyWidth100 p-20 pl-20 mb-15 backgrad">
+
+						<span class="_18x b">Mr. N.K. Sharma</span><br>
+
+						<!-- <span class="_14x"></span> -->
+
+							</div>
+
+
+
+						<div class="p-5">
+
+						<center><img class="img-circle img-responsive sq250" src="images/img-noPhotoAdded.jpg"></center>
+
+						</div>
+
+						<div class="_13x text-j p-20 det">
+
+							
+						</div>
+
+						<div type="button" class="p-5 pt-10 mt-5 dspn clearSearcBar clseBtt close text-r pull-right" style="width: 10%;">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				
+
+			</div>
+
+			<div class="modal-body dspn p-0 nbr">
+
+			</div>
+
+
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+			
+			<div class="col-sm-3 col-sm-12 p-5">
+
+				<div class="col-sm-12 col-xs-12 wb box-shadow borgr sh alert">
+
+					<div class="col-sm-12 col-xs-12 p-5">
+
+						<center><img class="img-responsive sq150 img-circle" src="images/img-mc8.jpg"></center>
+
+					</div>
+
+					<div class="col-sm-12 col-xs-12 pt-10 p3  _15x text-c c2 b">Mr. Devesh Lowe</div>
+
+					<div class="col-sm-12 col-xs-12 text-c">
+
+							<div class="btn lbb mt-5  text-c" data-toggle="modal" data-target="#mc8">Read More.</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+
+
+			<div class="modal fade p-5" id="mc8" tabindex="-1" role="dialog" aria-labelledby="SelectArea" aria-hidden="true">
+
+	<div class="modal-dialog nbr p-0" role="document">
+
+		<div class="modal-content p-0 nbr">
+
+			<div class="modal-header p-0 pt-0">
+
+				<div class="w-full white-box p-0">
+
+					<div class="dyWidth100 p-0">
+
+						<div type="button" class="p-5 close pull-right" data-dismiss="modal" aria-label="Close" style="width: 10%;padding-top: 7.6px">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+						<div class="dyWidth100 p-20 pl-20 mb-15 backgrad">
+
+						<span class="_18x b">Mr. Devesh Lowe</span><br>
+
+						<!-- <span class="_14x"></span> -->
+
+							</div>
+
+
+
+						<div class="p-5">
+
+						<center><img class="img-circle img-responsive sq250" src="images/img-mc8.jpg"></center>
+
+						</div>
+
+						<div class="_13x text-j p-20 det">
+
+							Devesh Lowe is currently working as Assistant Professor with JIMS, Sector-5 Rohini, New Delhi for past 6 years. Before joining at this profile, he had a work experience of 10 years in IT Industry and Academia. After starting his career in software development and Marketing for 1 year, he switched to academia and was associated with many colleges and universities like University of Delhi, NIFT, BVIMR, IAM, JIMS and IBMR as visiting faculty. Currently at JIMS, his work profile includes:  <br>
+-co-coordinator for Summer Training and Workshops for IT students, <br>
+-co-convener for annual inter-college IT Quiz <br>
+-coordinator for STP workshops of IIT-Bombay, <br>
+-Coordinator for NASSCOM-Barclays YEI project, <br>
+-Editor of Annual IT Magazine - INSIGHT, <br>
+-Convener of Annual seminar TechByte of MCA and Co-convener of annual seminar TechnoWhiz for BCA programs.<br> 
+-SPOC for AICTE Smart India Hackathon<br>
+-SPOC for AICTE Sansad Adarsh Gram Yojna Awards<br>
+-SPOC for AICTE Vishwakarma Awards 2018<br>
+-Organizing team member for NASA space apps challenge competition at JIMS
+						</div>
+
+						<div type="button" class="p-5 pt-10 mt-5 dspn clearSearcBar clseBtt close text-r pull-right" style="width: 10%;">
+
+							<span aria-hidden="true"><i class="_07x glyphicon glyphicon-remove"></i></span>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				
+
+			</div>
+
+			<div class="modal-body dspn p-0 nbr">
+
+			</div>
+
+
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+				
+
+	 <div class="mt-20 col-xs-12 mb-15 col-xs-12 _25x text-c">Nomination Committee</div>
+
+	 <div class="col-sm-4 col-sm-12 p-5">
+		<div class="col-sm-12 col-xs-12 wb box-shadow borgr sh alert">
+			<div class="col-sm-12 col-xs-12 p-5">
+				<center><img class="img-responsive sq150 img-circle" src="images/img-noPhotoAdded.jpg"></center>
+			</div>
+			<div class="col-sm-12 col-xs-12 pt-10 p3  _15x text-c c2 b">Sh. Pradeep Aneja</div>
+			<div class="col-sm-12 col-xs-12 text-c">
+					<!-- <div class="btn lbb mt-5  text-c" data-toggle="modal" data-target="#mc5">Read More.</div> -->
+			</div>
+		</div>
+	</div>
+
+	<div class="col-sm-4 col-sm-12 p-5">
+		<div class="col-sm-12 col-xs-12 wb box-shadow borgr sh alert">
+			<div class="col-sm-12 col-xs-12 p-5">
+				<center><img class="img-responsive sq150 img-circle" src="images/img-noPhotoAdded.jpg"></center>
+			</div>
+			<div class="col-sm-12 col-xs-12 pt-10 p3  _15x text-c c2 b">Sh. M. M. Agrawal</div>
+			<div class="col-sm-12 col-xs-12 text-c">
+					<!-- <div class="btn lbb mt-5  text-c" data-toggle="modal" data-target="#mc5">Read More.</div> -->
+			</div>
+		</div>
+	</div>
+
+	<div class="col-sm-4 col-sm-12 p-5">
+		<div class="col-sm-12 col-xs-12 wb box-shadow borgr sh alert">
+			<div class="col-sm-12 col-xs-12 p-5">
+				<center><img class="img-responsive sq150 img-circle" src="images/img-noPhotoAdded.jpg"></center>
+			</div>
+			<div class="col-sm-12 col-xs-12 pt-10 p3  _15x text-c c2 b">Dr. Rajni Jain</div>
+			<div class="col-sm-12 col-xs-12 text-c">
+					<!-- <div class="btn lbb mt-5  text-c" data-toggle="modal" data-target="#mc5">Read More.</div> -->
+			</div>
+		</div>
+	</div>
+
+			
+
+
+
+	</div>
+
+</div>
+
+
+
+
+
+ <!-- <div class="container-fluid blab imFooter">
+ 	<div class="col-sm-12 col-xs-12 p-15 cw">
+ 		<center>
+	 		<span class="_12x b">&copy; CSI</span><br>
+	 	
+	 	</center>
+ 	</div>
+ </div> -->
+
+ <style>li{padding: 7px;}</style>
+<div class="container-fluid pt-20 pb-20 p-0 cw footer-manish" style="background-color: #383636;">
+  <div class="col-sm-4 col-xs-12 p-10 ">
+    <div class="col-sm-12 col-xs-12 _12x  b">ABOUT US</div>
+    <div class="col-sm-12 col-xs-12">
+      <li>About Delhi Chapter</li><li>
+      Chapter Details</li><li>
+      Managing Committee</li><li>
+      Activies</li><li>
+      Awards and Recognition</li><li>
+      Past Chairman</li><li>
+      CSI Fellows - Delhi</li><li>
+      CSI Chapter Patrons
+    </li></div>
+
+  </div>
+  <div class="col-sm-4 col-xs-12 p-10">
+    <div class="col-sm-12 col-xs-12 _12x  b">STUDENTS</div>
+    <div class="col-sm-12 col-xs-12">
+      <li>About Student Chapter</li><li>
+      CSI Delhi Student Branches</li><li>
+      Student Downloads</li><li>
+      Internship List
+    </li></div>
+  </div>
+  <div class="col-sm-4 col-xs-12 p-10">
+    <div class="col-sm-12 col-xs-12 _12x  b">COMPUTER SOCIETY OF INDIA, DELHI CHAPTER</div>
+    <div class="col-sm-12 col-xs-12">
+      <p class="text-address">
+      <br><i class="glyphicon glyphicon-map-marker"></i> 32,Pocket Q. CSC, Pitampura, Northwest Delhi - 110088<br><br>
+      <!-- <i class="glyphicon glyphicon-earphone"></i> +91-1234-567-890, +91-1234-567-890<br><br> -->
+      <i class="glyphicon glyphicon-envelope"></i> info@csi-delhi.org
+      </p>
+    </div>
+  </div>
+</div>
+<div class="container-fluid blab cw p-20">
+  <div class="col-sm-6 _13x col-xs-12">&copy; Computer Society of India</div>
+</div>
+
+
+
+</body></html>

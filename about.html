@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<script src="js/3.3.1-jquery.min.js"></script>
+		<script src="js/js-bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137792517-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag("js", new Date());
+
+		  gtag("config", "UA-137792517-1");
+		</script><link rel="stylesheet" href="css/css-style.css">
+
+	
+
+<title>
+Computer Society of India &middot; Delhi Chapter </title>
+
+   
+</head><body><div class="sidebar-overlay"></div>
+<aside id="sidebar" class="sidebar sidebar-fixed-left sidebar-default" role="navigation">
+    <!-- Sidebar header -->
+    <div class="sidebar-header header-cover backgrad">
+        <!-- Top bar -->
+        <!-- Sidebar toggle button -->
+        <button type="button" class="m-5 sidebar-toggle" style="margin:0px;">
+            <i class="glyphicon glyphicon-remove cw _08x"></i>
+        </button>
+        <div class="col-sm-8 col-sm-offset-2 col-xs-offset-2 col-xs-8 p-5">
+            <img class="img-responsive mt-20" src="images/img-logo.png">
+        </div>
+      
+       
+    </div>
+
+        <!-- Sidebar navigation -->
+    <ul class="nav sidebar-nav">
+
+        <a href="updateProfile.html"><li class="p-5" style="padding-left: 16px;">
+                <div class="col-sm-12 col-xs-12 b text-c _15x">Computer Society of India</div>
+                <div class="col-sm-12 col-xs-12 text-c _12x">Delhi Chapter</div>
+
+        </li>
+            </a>
+
+        <li class="divider">
+
+         </li><li>
+                           <a href="csi-delhi.html">
+                               Home
+                           </a>
+                       </li> <li>
+                           <a href="events.html">
+                               Events
+                           </a>
+                       </li> <li>
+                           <a href="membership.html">
+                               Membership
+                           </a>
+                       </li> <li>
+                           <a href="awards.html">
+                               Awards
+                           </a>
+                       </li> <li>
+                           <a href="students.html">
+                               Students
+                           </a>
+                       </li> <li>
+                           <a href="downloads.html">
+                               Downloads
+                           </a>
+                       </li> <li>
+                           <a href="gallery.html">
+                               Gallery
+                           </a>
+                       </li> <li>
+                           <a href="about.html">
+                               About Us
+                           </a>
+                       </li> <li>
+                           <a href="contact.html">
+                               Contact Us
+                           </a>
+                       </li> <li>
+                           <a href="http://csi-india.org">
+                               CSI HQ
+                           </a>
+                       </li>            
+        
+        
+    </ul>
+    
+</aside>
+
+
+<script>
+ 
+
+$(document).ready(function() {
+    var overlay = $('.sidebar-overlay');
+
+    $('.sidebar-toggle').on('click', function() {
+        var sidebar = $('#sidebar');
+        sidebar.toggleClass('open');
+        if ((sidebar.hasClass('sidebar-fixed-left') || sidebar.hasClass('sidebar-fixed-right')) && sidebar.hasClass('open')) {
+            overlay.addClass('active');
+        } else {
+            overlay.removeClass('active');
+        }
+    });
+
+    overlay.on('click', function() {
+        $(this).removeClass('active');
+        $('#sidebar').removeClass('open');
+    });
+
+});
+
+// Sidebar constructor
+//
+// -------------------
+$(document).ready(function() {
+
+    var sidebar = $('#sidebar');
+    var sidebarHeader = $('#sidebar .sidebar-header');
+    var sidebarImg = sidebarHeader.css('background-image');
+    var toggleButtons = $('.sidebar-toggle');
+
+    // Hide toggle buttons on default position
+    toggleButtons.css('display', 'initial');
+    // $('body').css('display', 'table');
+
+
+  
+
+    
+});
+
+
+
+(function($) {
+    var dropdown = $('.dropdown');
+
+    // Add slidedown animation to dropdown
+    dropdown.on('show.bs.dropdown', function(e){
+        $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
+    });
+
+    // Add slideup animation to dropdown
+    dropdown.on('hide.bs.dropdown', function(e){
+        $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
+    });
+})(jQuery);
+
+
+
+(function(removeClass) {
+
+    jQuery.fn.removeClass = function( value ) {
+        if ( value && typeof value.test === "function" ) {
+            for ( var i = 0, l = this.length; i < l; i++ ) {
+                var elem = this[i];
+                if ( elem.nodeType === 1 && elem.className ) {
+                    var classNames = elem.className.split( /\s+/ );
+
+                    for ( var n = classNames.length; n--; ) {
+                        if ( value.test(classNames[n]) ) {
+                            classNames.splice(n, 1);
+                        }
+                    }
+                    elem.className = jQuery.trim( classNames.join(" ") );
+                }
+            }
+        } else {
+            removeClass.call(this, value);
+        }
+        return this;
+    }
+
+})(jQuery.fn.removeClass);  </script>
+
+<div class="container-fluid p-0">
+
+
+
+<div class="col-sm-12 white-box col-xs-12 p-10">
+	<a href="csi-delhi.html"><div class="col-sm-1 col-xs-3 p-0 pl-5 pr-5 text"><img class="m-0 img img-responsive" src="images/img-logo.png"></div></a>
+	<div class="col-sm-11 col-xs-9 p-10">
+		<div class="_23x">Computer Society of India</div>
+		<div class="_16x">Delhi Chapter</div>
+	</div>
+</div>
+
+<div class="col-sm-12 col-xs-12  cs1 p-10">
+
+
+	<div class="col-sm-12 col-xs-12 mobile p-0">
+		<div class="btn hdbb _14x sidebar-toggle"><span class=" p-0"><i class="glyphicon glyphicon-menu-hamburger"></i> &nbsp; MENU</span></div>
+	</div>
+	
+
+	<div class="col-sm-12 col-xs-12 pc p-0">
+		 <a href="csi-delhi.html"><div class="btn hdbb _14x">Home</div></a><a href="events.html"><div class="btn hdbb _14x">Events</div></a><a href="membership.html"><div class="btn hdbb _14x">Membership</div></a><a href="awards.html"><div class="btn hdbb _14x">Awards</div></a><a href="students.html"><div class="btn hdbb _14x">Students</div></a><a href="downloads.html"><div class="btn hdbb _14x">Downloads</div></a><a href="gallery.html"><div class="btn hdbb _14x">Gallery</div></a><a href="about.html"><div class="btn hdbb _14x">About Us</div></a><a href="contact.html"><div class="btn hdbb _14x">Contact Us</div></a><a href="http://csi-india.org"><div class="btn hdbb _14x">CSI HQ</div></a>	</div>
+	
+</div>
+
+</div>
+
+
+	
+	<div class="container-fluid p-0">
+		<div class="col-sm-8 col-sm-12 p-20">
+			<div class="alert wb borgr col-sm-12 col-xs-12  borgr">
+				<div class="col-sm-12 col-xs-12 _19x blb alert">About Us</div>
+
+				<div class="col-sm-12 col-xs-12 c2 _12x">Historically, Delhi had been the Centre of power from ages. It
+has been the major activity centre in India both for Business
+and Industry. In early 1960 itself; Delhi witnessed sufficient
+growth of computer usage. The population of computer instal
+lation and computer users has shown exponential increase ev
+ery successive year. After formation of CSI in 1965, the need
+was felt to have a activity centre at Delhi. It was on 20th August
+1970 when the Constitution &amp; Bye-laws of Delhi Chapter were
+approved and Chapter got off to a start under the Chairman
+ship of Prof. J.C. Shourie, IIT Delhi. The chapter has the dis
+tinction of providing numbers of Presidents to Exe Com. to name
+few are Dr. R.K. Dutta, Brig. SVS Chowdhry, Dr. M.L. Goyal,
+R.S. Raizada, Brig. V.M. Sundram, P.P. Gupta....
+The Chapter is one of the largest chapter of the Computer So
+ciety of India having strength of 1300 members. The various
+activities carried out by the chapter are :<br><br>
+<li>Educational Courses
+</li><li>Seminars and Exhibitions
+</li><li>Public meetings and Awareness Programmers
+</li><li>Conferences and Conventions
+</li><li>Evening Technical Talks
+</li><li>National Standard Testing Programming Competence
+</li><li>Manufacturer's Presentation
+</li><li>Panel Discussions
+</li><li>Press conference and writing articles in local papers
+</li><li>are run by Universities, Board of Technical Examination and
+</li><li>Helping to decide curriculum for various courses which
+</li><li>Paper competition and Programme competition.
+</li><li>internal courses for various public institutes.
+</li><li>Teacher's Training Programme
+</li><li>Student Branch activities &amp; competition.
+</li><li>Promotion of National Activities.<br><br>
+Inauguration of CSI Delhi Chapter
+office premises at Pitampura on
+14 th Sept. 2008
+by President Csi Prof KK. Aggarwal<br>
+<div class="mt-20 alert c2 borgr">
+
+<br>
+<center>
+<span class=" b _15x">Computer Society of India<br>
+Delhi Chapter-cum-Northern Regional Office<br>
+<span class="_07x">Inauigurated by</span><br>
+Hon'ble Prof. K.K.Aggarwal<br>
+<span class="_07x">President CSI<br>
+and</span><br>
+
+Vice Chancellor GGS Indraprastha University, Delhi<br>
+14-09-2008<br><br>
+A.K. Saini<br><span class="_07x">(Chairman)</span><br> M.N. Hoda<br><span class="_07x">(Vice Chairman)</span><br> Manoj Sethi<br><span class="_07x">(Secretary)</span><br> Karun Sharma<br> <span class="_07x">(Treasurer)</span><br><br>
+President : Prof. K.K. Aggarwal<center>
+
+
+
+</center></span></center></div>
+				</li></div>
+			</div>
+
+			<!-- <div class="alert wb borgr col-sm-12 col-xs-12  borgr">
+				<div class="col-sm-12 col-xs-12 _19x blb alert">Our Vision</div>
+
+				<div class="col-sm-12 col-xs-12 c2 _12x"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+
+			<div class="alert wb borgr col-sm-12 col-xs-12  borgr">
+				<div class="col-sm-12 col-xs-12 _19x blb alert">Our Mission</div>
+
+				<div class="col-sm-12 col-xs-12 c2 _12x"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div> -->
+			
+		</div>
+
+		<div class="col-sm-4 col-sm-12 p-0 pt-20">
+			<div class="col-sm-12 col-xs-12 alert c2 cs2 borgr">
+
+				<div class="col-sm-12 col-xs-12 mb-20 _13x b"><i class="glyphicon glyphicon-info-sign"></i> NEWS</div>
+				<div><a href="data/news/FDP-on-Machine-Learning13-17-july.pdf" target="_blank">FDP on Machine Learning</a></div><br>
+				<div><a href="./req/assets/img/s8.jpg" target="_blank">56<sup>th</sup> Foundation Day Celebration</a></div><br>
+				<div><a href="data/news/smart-devices-impact-on-human-life.pdf" target="_blank">Technical Talks on Smart Devices: Impact on Human Life</a></div><br>
+				<div><a href="data/news/IT-Quiz-2020.pdf" target="_blank">Effectiveness of Cyber Laws in India - IT Quiz - 2020</a></div><br>
+				<div><a href="data/news/5th-international-conference.pdf" target="_blank">5th International Conference</a></div><br>
+				<div><a href="annual-general-meeting.html" target="_blank">Annual General Meeting </a></div><br>
+				<div><a href="data/news/Technical-Talk-By-CSI-Delhi-Chapter.pdf" target="_blank">Technical Talk By CSI Delhi Chapter <br>Click Here to read more</a></div><br>
+				<div><a href="data/news/csi_call_for_nominations.pdf" target="_blank">Call for Nominations 2020-2021/2022. <br>Click Here to read more</a></div><br>
+				<div><a href="data/news/csi_election.pdf" target="_blank">Nomination for CSI Delhi Chapter Elections 2020-2021/2022. <br>Click Here for registration</a></div><br>
+				
+			
+
+				<div class="alert col-sm-12 c2 col-xs-12 borgr sh wb b text-c mt-20 mb-20 pt-20 pb-20 _18x">
+
+					<div class="col-sm-12 col-xs-12 mb-10 mt-20">Celebrating</div>
+
+						<center><img class="col-sm-6 col-xs-6 mb-0 col-sm-offset-3 col-xs-offset-3 p-0 img-responsive" src="images/img-_logo.png"></center>
+
+					<div class="col-sm-12 col-xs-12 mt-10 mb-20">Golden Jubilee
+
+						Anniversary<br>
+
+					1970 - 2020</div>
+
+				</div>
+
+			</div>
+
+
+
+			<div class="col-sm-12 borgr alert c2 wb p-0 col-xs-12">
+
+				<div class="col-sm-12 col-xs-12 _13x b p-0">
+
+					<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcsidelhi&amp;tabs=timeline&amp;width=340&amp;height=500&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId=625133817637144" height="500" style="border:none;overflow:hidden;width:99%;" scrolling="yes" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+				</div>
+
+			</div>
+
+
+
+					</div>
+
+			
+
+	</div>
+
+
+
+
+ <!-- <div class="container-fluid blab imFooter">
+ 	<div class="col-sm-12 col-xs-12 p-15 cw">
+ 		<center>
+	 		<span class="_12x b">&copy; CSI</span><br>
+	 	
+	 	</center>
+ 	</div>
+ </div> -->
+
+ <style>li{padding: 7px;}</style>
+<div class="container-fluid pt-20 pb-20 p-0 cw footer-manish" style="background-color: #383636;">
+  <div class="col-sm-4 col-xs-12 p-10 ">
+    <div class="col-sm-12 col-xs-12 _12x  b">ABOUT US</div>
+    <div class="col-sm-12 col-xs-12">
+      <li>About Delhi Chapter</li><li>
+      Chapter Details</li><li>
+      Managing Committee</li><li>
+      Activies</li><li>
+      Awards and Recognition</li><li>
+      Past Chairman</li><li>
+      CSI Fellows - Delhi</li><li>
+      CSI Chapter Patrons
+    </li></div>
+
+  </div>
+  <div class="col-sm-4 col-xs-12 p-10">
+    <div class="col-sm-12 col-xs-12 _12x  b">STUDENTS</div>
+    <div class="col-sm-12 col-xs-12">
+      <li>About Student Chapter</li><li>
+      CSI Delhi Student Branches</li><li>
+      Student Downloads</li><li>
+      Internship List
+    </li></div>
+  </div>
+  <div class="col-sm-4 col-xs-12 p-10">
+    <div class="col-sm-12 col-xs-12 _12x  b">COMPUTER SOCIETY OF INDIA, DELHI CHAPTER</div>
+    <div class="col-sm-12 col-xs-12">
+      <p class="text-address">
+      <br><i class="glyphicon glyphicon-map-marker"></i> 32,Pocket Q. CSC, Pitampura, Northwest Delhi - 110088<br><br>
+      <!-- <i class="glyphicon glyphicon-earphone"></i> +91-1234-567-890, +91-1234-567-890<br><br> -->
+      <i class="glyphicon glyphicon-envelope"></i> info@csi-delhi.org
+      </p>
+    </div>
+  </div>
+</div>
+<div class="container-fluid blab cw p-20">
+  <div class="col-sm-6 _13x col-xs-12">&copy; Computer Society of India</div>
+</div>
+
+
+
+</body></html>
